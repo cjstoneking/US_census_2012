@@ -10,4 +10,7 @@ The original datafile is available from https://www.census.gov/data/datasets/201
 
 I also use the 2012 census estimates of the state populations, which can be found under https://www.governing.com/gov-data/state-census-population-migration-births-deaths-estimates.html, or in the .csv which I added to this project.
 
+I run some preprocessing on the ECN_2012_US_31SA1_with_ann.csv file to get numbers of businesses and estimated numbers of employees in different sectors for each state, then normalize by the estimates of the state population. The code for this is in the .ipynb notebook. The resulting file is US_Census_2012_manufacturing_per_10000_residents.csv
+
+
 
